@@ -1,0 +1,41 @@
+# Secrets & environment
+.env
+.env.*
+*.env.local
+*.pem
+*.key
+*.cert
+!.env.example
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+.pytest_cache/
+*.db
+*.sqlite
+*.sqlite3
+backend/*.db
+backend/app/ml/model/*.joblib
+
+# Node
+node_modules/
+dist/
+build/
+.npm
+npm-debug.log*
+
+# Logs
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
